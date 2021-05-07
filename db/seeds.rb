@@ -12,3 +12,7 @@ Item.create(name: "Monstera", description: "Nicknamed the “swiss cheese plant�
 Item.create(name: "Fiddle Leaf Fig", description: "The Fiddle Leaf Fig is famous for its broad, vibrant green leaves with prominent veining. It prefers a stable environment and can be fickle when temps fluctuate", price: 25.00, cart_id: 1)
 Item.create(name: "Snake Plant Laurentii", description: "The Snake Plant Laurentii is a succulent plant characterized by its upright swordlike leaves with vibrant yellow edges", price: 20.00, cart_id: 1)
 
+Item.create(name: "Purple Orchid", description: "Often called the beginner orchid or ‘moth orchid’, the popular pet-friendly Phalaenopsis orchid is one of the easiest varieties of orchids to grow as a houseplant.", price: 40.00, cart_id: 1)
+Item.create(name: "Snake Plant", description: "The Snake Plant Laurentii is a succulent plant characterized by its upright swordlike leaves with vibrant yellow edges.", price: 23.00, cart_id: 1)
+Item.create(name: "White Orchid", description: "Often called the beginner orchid or ‘moth orchid’, the popular pet-friendly Phalaenopsis orchid is one of the easiest varieties of orchids to grow as a houseplant.", price: 32.00, cart_id: 1)
+
