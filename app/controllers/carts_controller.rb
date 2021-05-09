@@ -12,14 +12,13 @@ class CartsController < ApplicationController
         render json: cart, only: [:id, :item_count, :total_price]
     end
 
-    def new
-         cart = Cart.new(cart_params)
-
-        #  render json: CartSerializer.new(cart).to_serialized_json
-    end
+    # def new
+    #      cart = Cart.new(cart_params)
+    #     #  render json: CartSerializer.new(cart).to_serialized_json
+    # end
 
     def create 
-        cart = Cart.new(cart_params)
+        cart = Cart.create(cart_params)
         if cart
             cart.save
             render json: cart
