@@ -1,8 +1,10 @@
 class CartsController < ApplicationController
 
     def index
-        carts = Cart.all
-        render json: carts
+        # carts = Cart.all
+        # render json: carts
+        render json: Cart.all, key_transform: :camel_lower
+
     end
 
     def show
@@ -12,7 +14,7 @@ class CartsController < ApplicationController
 
     def new
          cart = Cart.new(cart_params)
-         
+
         #  render json: CartSerializer.new(cart).to_serialized_json
     end
 
