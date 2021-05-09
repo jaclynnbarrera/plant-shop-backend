@@ -1,5 +1,3 @@
-class CartSerializer
-  include FastJsonapi::ObjectSerializer
-  attributes :item_count, :total_price
-  has_many :items
+class CartSerializer < ActiveModel::Serializer
+  attributes (:id, :item_count, :total_price)
 end
