@@ -9,7 +9,7 @@ class CartsController < ApplicationController
 
     def show
         cart = Cart.find_by(id: params[:id])
-        render json: cart, only: [:id, :item_count, :total_price]
+        render json: cart
     end
 
     # def new
