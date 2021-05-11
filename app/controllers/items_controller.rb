@@ -12,9 +12,9 @@ class ItemsController < ApplicationController
 
     def update
         item = Item.find_by(id: params[:id])
-        item.cart_id = params[:cart_id]
+        item.cart_id = params[:item][:cart_id]
         item.save
-        render json: {message: "item deleted"}
+        render json: {message: "item was updated"}
     end
 
     private
