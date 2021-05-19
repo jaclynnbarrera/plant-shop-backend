@@ -11,7 +11,9 @@ The Plant Shop is an e-commerce single page application, where users can shop fo
 
 ### Usage
 1. Run `rails db:migrate`
-2. Run `rails s`. Then you can head over to http://localhost:3000/ and view the application!
+2. Run `rails db:seed`
+3. Run `rails s` to start the server at http://localhost:3000/.
+4. From inside the frontend directory, `open index.html` to view the single page application!
 
 ### Contributing
 
