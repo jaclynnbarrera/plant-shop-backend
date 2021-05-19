@@ -1,8 +1,6 @@
 class CartsController < ApplicationController
 
     def index
-        # carts = Cart.all
-        # render json: carts
         render json: Cart.all, key_transform: :camel_lower
 
     end
@@ -11,11 +9,6 @@ class CartsController < ApplicationController
         cart = Cart.find_by(id: params[:id])
         render json: cart
     end
-
-    # def new
-    #      cart = Cart.new(cart_params)
-    #     #  render json: CartSerializer.new(cart).to_serialized_json
-    # end
 
     def create 
         cart = Cart.create(cart_params)
@@ -32,7 +25,6 @@ class CartsController < ApplicationController
     def cart_params 
         params.require(:cart).permit(:item_count, :total_price)
     end
-
     
 end
 

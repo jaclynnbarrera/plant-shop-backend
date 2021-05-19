@@ -25,4 +25,3 @@ class ItemsController < ApplicationController
     
 end
 
- 
