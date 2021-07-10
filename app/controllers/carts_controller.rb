@@ -2,7 +2,6 @@ class CartsController < ApplicationController
 
     def index
         render json: Cart.all, key_transform: :camel_lower
-
     end
 
     def show
