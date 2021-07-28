@@ -2,7 +2,7 @@
 
 ### Introduction
 
-The Plant Shop is an e-commerce single page application, where users can shop for different plant and add to their "cart". A cart is constructed on DOMload and a cart can have many plants. You can see each plant and also see more information (pice, description). A plant belongs to a cart. You can add many plants to cart.
+The Plant Shop is an e-commerce single page application, where users can shop for different plants, add and remove items from their cart. A cart is constructed on DOMload and a cart can have many plants. You can see each plant and also see more information (pice, description). A plant belongs to a cart. You can add many plants to cart.
 
 ### Installation
 1. Fork and clone repo to your local machine. 
