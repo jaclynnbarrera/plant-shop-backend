@@ -7,7 +7,7 @@ The Plant Shop is an e-commerce single page application, where users can shop fo
 ### Installation
 1. Fork and clone repo to your local machine. 
 2. Run `bundle install` to install dependencies.
-3. Here is the link to the frontend repo: https://github.com/jaclynnbarrera/the-plant-shop-frontend
+3. Here is the link to the frontend repo: https://github.com/jaclynnbarrera/plant-shop-frontend
 
 ### Usage
 1. Run `rails db:migrate`
@@ -17,7 +17,7 @@ The Plant Shop is an e-commerce single page application, where users can shop fo
 
 ### Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/jaclynnbarrera/the-plant-shop. This project is intended to be a safe and welcoming space for collaboration, and contributors are expected to adhere to the Contributor Covenant code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/jaclynnbarrera/plant-shop-frontend. This project is intended to be a safe and welcoming space for collaboration, and contributors are expected to adhere to the Contributor Covenant code of conduct.
 
 ### License
 
